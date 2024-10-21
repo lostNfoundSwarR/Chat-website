@@ -5,7 +5,7 @@ userImg.addEventListener("click", () => {
      location.href = "";
 });
 
-window.addEventListener("load", async () => {
+window.addEventListener("load", () => {
      navigator.sendBeacon("php/onload.php", new Blob());
 });
 
